@@ -1,97 +1,100 @@
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
-    font-family: 'Anton', sans-serif;
-  }
-  p {
-    font-family: 'Jura', sans-serif;
-  }
-  body {
-    margin: 0;
-  }
-  header {
-    background-color: #97B3B1;
-    padding: 20px;
-  }
-
-  header ul {
-    float: right;
-  }
-  header li {
-    display: inline-block;
-    padding: 0px 5px;
-  }
-  header a {
-    text-decoration: none;
-    color: white;
-  }
-  header a:hover {
-    color: black;
-  }
-  .heroImg {
-    background-color: #EBEBEB;
-    padding: 100px 15px;
-  }
-  .main img{
-    width:100%;
-    padding-bottom: 30px;
-
-  .content {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 50px;
-    background-color: #97B3B1;
-    text-align: center;
-  }
-  button {
-    padding: 15px;
-    background-color: #373738;
-    color: white;
-    font-size: 15px;
-    border-radius: 6px;
-  }
-  footer {
-    background-color: #97B3B1;
-    padding: 5px;
-    color: white;
-  }
-  footer ul {
-    list-style: none;
-    padding-left: 5px;
-  }
-  footer li {
-    display: inline-block;
-    padding: 0px 7px;
-  }
-    /* --------------------------------Lisa took out CSS flex and grid */
-
-  /*My UX Skills section coded using CSS flex */
-
-  
-  /*My Work Section Constructed using CSS Grid */
-  .mySkills {
-    padding: 60px 30px;
-    padding-top: 0;
-    background-color: #EBEBEB;
-  }
-  .myWork {
-    padding: 60px 30px;
-    padding-top: 0;
-    background-color: #EBEBEB;
-  }
-  
-
-    /* Cards */
+  font-family: 'Anton', sans-serif;
+}
+p {
+  font-family: 'Jura', sans-serif;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: #97B3B1;
+  padding: 30px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+}
 .content {
+  max-width: 300px;
+  margin: 0 auto;
   padding: 50px;
+  background-color: #97B3B1;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+}
+footer {
+  background-color: #97B3B1;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
 }
 
+<!--  My UX Skills section coded using CSS flex -->
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 100px 300px;
+  div: 33%
+  width: 33%;
+  padding: 25px;
+  }
+
+<-- My Work Section Constructed using CSS Grid -->
+My Work {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #EBEBEB;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+
+  /* Cards */
+.content {
+padding: 50px;
+}
 .sectionHeading {
-  text-align: center;
+text-align: center;
 }
 
 .cardContainer {
-  text-align: center;
-}
-
-
+text-align: center;
 
